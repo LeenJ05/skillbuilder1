@@ -16,7 +16,7 @@ public class SkillBuilder1 {
         System.out.println("Enter a floating-point number: ");
         double spice = input.nextDouble();
 
-        double mexp1 = Math.pow(2,spice);
+        double mexp1 = (4.0/3)*  Math.pow(2,(Math.sqrt(5) / Math.pow(spice, 3)));
         System.out.println("Well " + name +", the spice value resulted in " + mexp1);
 
         double convertedValue = Math.round(mexp1*100.0)/100.0;
